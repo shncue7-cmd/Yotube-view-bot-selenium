@@ -31,8 +31,9 @@ class Yt:
                 for w in handel:
                     self.driver.switch_to.window(w) # switch back to the tab
 
-V_LINK = # add the link here
+V_LINK = # https://youtu.be/wTqZ2CGGF14?si=qsb4IMwBLiJPOFEt
 if __name__ == '__main__':
     abc = Yt(V_LINK)
     abc.RunBot()
+
 
